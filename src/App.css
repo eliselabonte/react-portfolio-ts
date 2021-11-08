@@ -4,10 +4,65 @@
   --medium-champagne: #EDDEA4;
   --light-salmon: #F7A072;
   --deep-saffron: #FF9B42;
+  --background-pattern: linear-gradient(#EDDEA4 0% 100%);
+  --name-font: 'Sacramento', cursive;
+  --head-font: 'Unna', serif;
+  --text-font: 'Poiret One', cursive;
 }
 
+html  {
+  height: 100%;
+  background: var(--background-pattern);
+}
 
+body  {
+  height: 100vh;
+}
 
+header.Header  {
+  top: 0px;
+  margin:0px;
+  width: 100%;
+  background-color: #0FA3B1;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+h1  {
+  color: var(--deep-saffron);
+  font-family: var(--name-font);
+  margin: 0px;
+}
+
+h2  {
+  color: var(--light-salmon);
+  font-family: var(--head-font);
+}
+
+li  {
+  color: var(--honeydew);
+  font-family: var(--text-font);
+}
+
+p  {
+  color: var(--veridian-green);
+  font-family: var(--text-font);
+  font-size: 20px;
+}
+
+footer  {
+  position: absolute;
+  width:100%;
+
+  background-color: var(--light-salmon);
+  bottom:0px;
+}
+
+div.blue  {
+  background-color: var(--honeydew);
+}
 
 /* .App {
   text-align: center;
