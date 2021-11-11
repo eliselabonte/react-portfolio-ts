@@ -7,9 +7,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height:200vh;
+  width:100vw; 
+  background-image: url('./images/background/sky.png');
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

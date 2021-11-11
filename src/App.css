@@ -1,104 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@200;900&display=swap');
 * {
-  --veridian-green: #0FA3B1;
-  --honeydew: #D9E5D6;
-  --medium-champagne: #EDDEA4;
-  --light-salmon: #F7A072;
-  --deep-saffron: #FF9B42;
-  --background-pattern: linear-gradient(#EDDEA4 0% 100%);
-  --name-font: 'Sacramento', cursive;
-  --head-font: 'Unna', serif;
-  --text-font: 'Poiret One', cursive;
+  --title-font: 'Monoton', cursive;;
+  --body-font: 'Raleway', sans-serif;
+  --light-grey: #CCD3D4;
+  --medium-grey: #AFADB2;
+  --yellow: #FED93F;
+  --red: #7E3B3A;
 }
 
-html  {
-  height: 100%;
-  background: var(--background-pattern);
+h2, h3, h4, p {
+  font-family: var(--body-font);
+  font-weight: 200;
 }
 
-body  {
-  height: 100vh;
+/* TODO: the height disappears in full-screen */
+div.mountain-background {
+  width:100vw;
+  /* TODO: fix this hacky shit */
+  height:20%;
+  margin:0px;
+  background-size: 100vw auto;
+  background-image: url('./images/background/mountains.png');
+  background-repeat: no-repeat;
+  z-index:1;
+}
+
+/* TODO: title needs to hide behind mountains/background after scrolling */
+h1.intro  {
+  font-family: var(--title-font);
+  font-size: 25px;
+  position: fixed;
+  z-index: 0;
+}
+
+div.black-background  {
+  margin:0px;
+  background-color: black;
 }
 
 header.Header  {
-  top: 0px;
+  top:0px;
   margin:0px;
   width: 100%;
-  background-color: #0FA3B1;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2px;
 }
 
-h1  {
-  color: var(--deep-saffron);
-  font-family: var(--name-font);
-  margin: 0px;
-}
-
-h2  {
-  color: var(--light-salmon);
-  font-family: var(--head-font);
-}
-
-li  {
-  color: var(--honeydew);
-  font-family: var(--text-font);
-}
-
-p  {
-  color: var(--veridian-green);
-  font-family: var(--text-font);
-  font-size: 20px;
-}
-
-footer  {
-  position: absolute;
-  width:100%;
-
-  background-color: var(--light-salmon);
-  bottom:0px;
-}
-
-div.blue  {
-  background-color: var(--honeydew);
-}
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
