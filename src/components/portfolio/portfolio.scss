@@ -1,3 +1,50 @@
 .circular {
   border-radius: 50%;
 }
+
+div.projectContainer  {
+  display: grid
+}
+
+div.projectItem {
+  height:200px;
+  width:200px;
+  border-radius: 30%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-size: 200px 200px;
+  h4  {
+    display:none;
+  }
+  h4:hover  {
+    display: inline;
+    font-weight: 500;
+    font-size:30px;
+    color:black;
+  }
+}
+
+div.projectItem:hover {
+  opacity: 70%;
+}
+
+div.code-quiz{
+  background-image: url('../../images/portfolio-items/code-quiz.png');
+}
+
+div.art {
+  background-image: url('../../images/portfolio-items/art.jpg');
+}
+
+div.cryptid {
+  background-image: url('../../images/portfolio-items/cryptid.png');
+}
+
+div.links {
+  width:80%;
+  display:flex;
+  justify-content: flex-end;
+}
+
