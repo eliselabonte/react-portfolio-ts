@@ -1,0 +1,39 @@
+div.intro-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+/* TODO: the height disappears in full-screen */
+div.mountain-background {
+  /* image is square */
+  width: 100vw;
+  height: 100vw;
+  margin: 0px;
+  background-size: 100vw auto;
+  background-image: url("../../images/background/mountains.png");
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+/* TODO: title needs to hide behind mountains/background after scrolling */
+h1.intro {
+  font-family: var(--title-font);
+  font-weight: 200;
+  font-size: 25px;
+  position: fixed;
+  z-index: 0;
+}
+
+@media screen and (min-width: 500px) {
+  h1.intro  {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1.intro  {
+    font-size: 5rem;
+  }
+}

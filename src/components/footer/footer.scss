@@ -1,0 +1,12 @@
+footer.Footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--medium-grey);
+  bottom: 0px;
+  /* maybe make background slightly transparent? */
+}
+
+footer a {
+  color: var(--red);
+  text-decoration: none;
+}

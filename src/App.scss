@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@200;900&display=swap');
+* {
+  --title-font: 'Monoton', cursive;;
+  --body-font: 'Raleway', sans-serif;
+  --light-grey: #CCD3D4;
+  --medium-grey: #AFADB2;
+  --yellow: #FED93F;
+  --red: #7E3B3A;
+}
+
+h2, h3, h4, p, li {
+  font-family: var(--body-font);
+  font-weight: 200;
+  color:var(--medium-grey);
+  text-align: center;
+}
+
+main.sections  {
+  background-color: black;
+  height: 100%;
+  width:100%;
+  margin:0px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y-mandatory;
+	scrollbar-width: none;	 //for firefox
+	&::-webkit-scrollbar	{ display: none; } //for chrome
+	scroll-behavior: smooth;
+
+
+  > * {
+    height: 100vh;
+    z-index: inherit;
+    display: inherit;
+    flex-direction: inherit;
+  }
+}
