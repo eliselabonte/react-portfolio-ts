@@ -1,22 +1,19 @@
 # react-portfolio
 
+[Deployed Url](https://eliselabonte.github.io/react-portfolio-ts/)
+
+[Github Repository](https://github.com/eliselabonte/react-portfolio-ts)
+
   ## Table of Contents
 
   * [Description](#Description)
-
-  * [Installation](#Installation)
 
   * [Usage](#Usage)
 
   * [Contributing](#Contributing)
 
   ## Description:
-      This is a single-page-application portfolio to showcase my work in web development
+      This is a React portfolio to showcase my work in web development
 
-  ## Installation:
-    * Deployed Url https://eliselabonte.github.io/react-portfolio/
-
-    * Github Repository https://github.com/eliselabonte/react-portfolio
-
-  ## Usage:
+  ## Contributing:
       This is an individual project
