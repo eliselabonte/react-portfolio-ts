@@ -9,10 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height:200vh;
   width:100vw; 
-  background-image: url('./images/background/sky.png');
-  display:flex;
-  flex-direction:column;
-  justify-content: flex-start;
+  /* background-color: black; */
+  background-image:url("./images/background/sky.png");
+
+  display: flex;
+  flex-direction: column;
 }
 
 
