@@ -4,8 +4,13 @@
   --body-font: 'Raleway', sans-serif;
   --light-grey: #CCD3D4;
   --medium-grey: #AFADB2;
+  --orange: rgb(255, 157, 0);
   --yellow: #FED93F;
   --red: #7E3B3A;
+}
+
+ul  {
+  padding:0px;
 }
 
 h2, h3, h4, p, li {
@@ -17,13 +22,12 @@ h2, h3, h4, p, li {
 
 main.sections  {
   background-color: black;
-  height: 100%;
   width:100%;
   margin:0px;
   z-index: 10;
   display: flex;
   flex-direction: column;
-  scroll-snap-type: y-mandatory;
+  scroll-snap-type: y mandatory;
 	scrollbar-width: none;	 //for firefox
 	&::-webkit-scrollbar	{ display: none; } //for chrome
 	scroll-behavior: smooth;
