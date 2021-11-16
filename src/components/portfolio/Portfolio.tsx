@@ -54,12 +54,15 @@ export default function Portfolio()   {
         }
     ]
 
+    // for Dev
     const item1 = projects[0];
     const item2 = projects[1];
     const item3 = projects[2];
 
     return (
-        <div className='projectContainer'>
+        // Should be using a .map() but this always returns null
+        <div className='projectContainer' id='projects'>
+            <h3>My Work</h3>
             <div className={`${item1.findBy} projectItem`}>
                 <h4>{item1.name}</h4>
                 <div className='links'>

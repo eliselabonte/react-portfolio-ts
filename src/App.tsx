@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Navigation from './components/nav/Navigation';
 import AboutMe from './components/about-me/AboutMe';
 import Portfolio from './components/portfolio/Portfolio';
+import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
@@ -19,6 +20,7 @@ function App() {
       <main className="sections">
         <AboutMe />
         <Portfolio />
+        <Resume />
         <Contact />
       </main>
       <Footer />
