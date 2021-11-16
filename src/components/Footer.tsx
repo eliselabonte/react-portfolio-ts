@@ -1,6 +1,6 @@
 function Footer () {
     return  (
-        <footer>
+        <footer className='Footer'>
             <p>linkedIn</p>
             <p>GitHub</p>
             <p>CodePen</p>
