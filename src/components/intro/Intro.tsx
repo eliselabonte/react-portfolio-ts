@@ -1,11 +1,14 @@
-import './intro.scss'
+import './intro.scss';
+import { GrPrevious, GrNext } from "react-icons/gr";
 
 function Intro () {
     return  (
         <div className='intro-card'>
-            <h1 className="intro">ELISE MARIE LABONTE</h1>
-            <h1 className='tagline'>junior software engineer</h1>
-            <div className='mountain-background'></div>
+            <section>
+                <h1 className="intro">ELISE MARIE LABONTE</h1>
+                <h1 className='tagline'><GrPrevious className='carat'/>junior software engineer<GrNext className='carat'/></h1>
+            </section>
+            <span className='mountain-background'></span>
         </div>
         
             

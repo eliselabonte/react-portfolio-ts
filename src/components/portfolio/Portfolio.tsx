@@ -8,7 +8,7 @@ export default function Portfolio()   {
     
     return (
             <div className='projectContainer' id='projects'>
-            <h3>My Work</h3>
+            <h3 className="work-title">My Work</h3>
                 { projects.map((item, i) => {
                     return (
                         <div key={i} className="projectItem">
