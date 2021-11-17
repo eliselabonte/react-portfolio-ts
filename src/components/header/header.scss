@@ -1,11 +1,14 @@
 header.Header {
     margin: 0px;
     width: 100%;
-    z-index: 10;
+    height:50px;
+    z-index: 21;
     background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
+    top: 100vw;
 }
 
 h2 {
@@ -27,7 +30,7 @@ div.hamburger {
     background-color: var(--medium-grey);
     border-radius: 2px;
     transform-origin: left;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
     }
 
     &.active {

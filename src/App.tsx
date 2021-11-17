@@ -11,19 +11,20 @@ import Footer from './components/footer/Footer';
 
 
 function App() {
-  // const [navOpen, setNavOpen] = useState<Boolean>(true);
+  const [navOpen, setNavOpen] = useState<Boolean>(false);
+
   return (
     <body className="body">
       <Intro />
-      <Header/>
-      <Navigation />
+      <Header navOpen={navOpen} setNavOpen={setNavOpen} />
+      <Navigation navOpen={navOpen} />
       <main className="sections">
-        <AboutMe />
         <Portfolio />
+        <AboutMe />
         <Resume />
         <Contact />
       </main>
-      <Footer />
+        <Footer />
     </body>
   )
 }

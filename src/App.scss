@@ -7,6 +7,7 @@
   --orange: rgb(255, 157, 0);
   --yellow: #FED93F;
   --red: #7E3B3A;
+  --border: 2px dotted var(--light-grey);
 }
 
 ul  {
@@ -18,6 +19,11 @@ h2, h3, h4, p, li {
   font-weight: 200;
   color:var(--medium-grey);
   text-align: center;
+}
+
+h3 {
+  font-weight: 500px;
+  font-size: 30px;
 }
 
 main.sections  {
@@ -34,9 +40,21 @@ main.sections  {
 
 
   > * {
-    height: 100vh;
+    min-height: 100vh;
     z-index: inherit;
-    display: inherit;
-    flex-direction: inherit;
+    // display: inherit;
+    // flex-direction: inherit;
+  }
+}
+
+span.line-break {
+  height:1px;
+  width:80%;
+  background-color: var(--light-grey);
+}
+
+@media screen and (min-width: 800px){
+  h2, h3, h4, p, span, li, a  {
+    font-size: 1.5rem;
   }
 }

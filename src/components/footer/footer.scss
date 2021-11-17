@@ -1,12 +1,24 @@
 footer.Footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  background-color: var(--medium-grey);
+  align-items: center;
+  background: linear-gradient(black 0%, #AFADB2 30%, #CCD3D4 70% 100%);
   bottom: 0px;
-  /* maybe make background slightly transparent? */
+  height:80px;
 }
 
 footer a {
-  color: var(--red);
+  color: black;
+  font-family: var(--body-font);
+  font-weight: 200;
   text-decoration: none;
+  font-size: 30px;
+  padding:none;
+  margin-top: 20px;
+}
+
+footer a:hover  {
+  color: var(--red);
+  font-weight: 500;
 }
