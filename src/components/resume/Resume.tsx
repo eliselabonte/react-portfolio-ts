@@ -7,7 +7,7 @@ export default function Resume()    {
             <span className='line-break'></span>
             <span>
                 <p>please download my resume</p>
-                <a href='/LaBonte-Resume.pdf' download className='download'>HERE</a>
+                <a href='https://docs.google.com/document/d/1Oa68MMDxUopVhyH8-1eIAFD4eu-scKV7YkHLRXEt11g/edit?usp=sharing' className='download'>HERE</a>
             </span>
             <div className='graph'>
                 <h3>proficiencies</h3>
