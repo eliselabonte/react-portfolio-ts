@@ -5,13 +5,9 @@ div.about-me    {
     justify-content: space-between;
 }
 
-div.headshot    {
-    background-image: url('../../images/headshot.png');
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vw;
-    width: 50vw;
+img.headshot    {
+    width:20vw;
+    height:20vw;
 }
 
 img {

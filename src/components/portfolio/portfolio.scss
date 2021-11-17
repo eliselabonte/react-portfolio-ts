@@ -2,7 +2,7 @@
   border-radius: 50%;
 }
 
-h3  {
+h3.work-title  {
   margin-top: 100px;
   margin-bottom: 100px;
   width:100%;
@@ -13,6 +13,7 @@ div.projectContainer  {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  height:100%;
 }
 
 div.projectItem {

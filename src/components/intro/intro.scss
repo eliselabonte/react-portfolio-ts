@@ -5,8 +5,13 @@ div.intro-card {
   padding-top: 5vh;
 }
 
+section {
+  position: fixed;
+  z-index: 0;
+}
+
 /* TODO: the height disappears in full-screen */
-div.mountain-background {
+span.mountain-background {
   /* image is square */
   width: 100vw;
   height: 100vw;
@@ -18,25 +23,24 @@ div.mountain-background {
 }
 
 h1  {
-  position: fixed;
-  z-index: 0;
+  text-align: center;
 }
 
 h1.intro {
   font-family: var(--title-font);
   font-weight: 200;
   font-size: 25px;
-  width: 60vw;
-  left: 5vw;
 }
 
 h1.tagline  {
   font-family: var(--body-font);
+  font-weight: 200;
   font-size: 10px;
-  text-align:center;
-  top: 15vh;
-  right:5vw;
-  width:40vw;
+}
+
+.carat {
+  // left:45vw;
+  height:30px;
 }
 
 @media screen and  (max-width: 1000px){

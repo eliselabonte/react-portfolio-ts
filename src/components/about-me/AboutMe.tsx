@@ -1,11 +1,11 @@
-import './about-me.scss'
+import './about-me.scss';
+import HeadshotImage from '../../images/headshot.png';
 
 export default function AboutMe () {
     return  (
         <div className='about-me' id='about-me'>
             <h3>About Me</h3>
-            <div className='headshot'></div>
-            {/* <img /> */}
+            <img src={ HeadshotImage } className='headshot'/>
             <h4>Artist, mariner, hiker, farmer, coder. Life is sometimes strange.</h4>
             <p className='about-body'>I left my home of Boston, MA after college to pursue a career on the waters of South East Alaska. There were bears. There were boats. Most importantly, there were Alaskans.
             <br></br>
