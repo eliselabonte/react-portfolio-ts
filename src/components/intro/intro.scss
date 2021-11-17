@@ -17,23 +17,51 @@ div.mountain-background {
   z-index: 10;
 }
 
-/* TODO: title needs to hide behind mountains/background after scrolling */
+h1  {
+  position: fixed;
+  z-index: 0;
+}
+
 h1.intro {
   font-family: var(--title-font);
   font-weight: 200;
   font-size: 25px;
-  position: fixed;
-  z-index: 0;
+  width: 60vw;
+  left: 5vw;
+}
+
+h1.tagline  {
+  font-family: var(--body-font);
+  font-size: 10px;
+  text-align:center;
+  top: 15vh;
+  right:5vw;
+  width:40vw;
+}
+
+@media screen and  (max-width: 1000px){
+  h1.intro  {
+    width: 100vw;
+  }
+  h1.tagline  {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 500px) {
   h1.intro  {
     font-size: 2rem;
   }
+  h1.tagline  {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
   h1.intro  {
     font-size: 5rem;
+  }
+  h1.tagline  {
+    font-size: 3rem;
   }
 }
