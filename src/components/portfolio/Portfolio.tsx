@@ -1,7 +1,7 @@
 import './portfolio.scss';
-import {FaGithub} from 'react-icons/fa'
-import { projects } from "./data.js"
-import { Fragment } from 'react';
+import {FaGithub} from 'react-icons/fa';
+import  {AiFillRocket} from 'react-icons/fa'
+import { projects } from './data';
 
 export default function Portfolio()   {
     
@@ -14,8 +14,9 @@ export default function Portfolio()   {
                             <h4>{item.name}</h4>
                             <div className='links'>
                                 <a href={item.gitHub}><FaGithub /></a>
-                                <a href={item.deployed}>🚀</a>
+                                <a href={item.deployed}><AiFillRocket></a>
                             </div>
+                                <img src={item.image}/>
                         </div>
                     )}
                 )}

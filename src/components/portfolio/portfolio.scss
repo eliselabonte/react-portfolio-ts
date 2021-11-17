@@ -31,40 +31,12 @@ div.projectItem {
     display: inline;
     font-weight: 500;
     font-size:30px;
-    color:black;
+    color:white;
   }
 }
 
 div.projectItem:hover {
   opacity: 70%;
-}
-
-div.code-quiz{
-  background-image: url('../../images/portfolio-items/code-quiz.png');
-}
-
-div.art {
-  background-image: url('../../images/portfolio-items/art.png');
-}
-
-div.cryptid {
-  background-image: url('../../images/portfolio-items/cryptid.png');
-}
-
-div.dad {
-  background-image: url('../../images/portfolio-items/dad.png');
-}
-
-div.password {
-  background-image: url('../../images/portfolio-items/password.png');
-}
-
-div.weather-app {
-  background-image: url('../../images/portfolio-items/weather_app.png');
-}
-
-div.work-tracker {
-  background-image: url('../../images/portfolio-items/work-tracker.png');
 }
 
 div.links {
