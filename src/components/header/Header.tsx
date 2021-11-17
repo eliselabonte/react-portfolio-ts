@@ -12,7 +12,7 @@ export default function Header (props: any) {
 
     return  (
         <header className="Header" id='header'>
-            <h2>Front-End Web Developer</h2>
+            <h2>Front-End Web Development</h2>
             <div onClick={() => setNavOpen(!navOpen)} className={`hamburger ${navOpen ? 'active' : ''}`}>
                 <span className='line1'></span>
                 <span className='line2'></span>
