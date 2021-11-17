@@ -8,6 +8,7 @@ export default function Contact () {
                 <h3>emlabonte714@gmail.com</h3>
                 <h3>781-985-1677</h3>
             </div>
+            <span className='line-break'></span>
             <div className="their-info"> 
                 <h3>or send me a message</h3>
                 <form id='contact-form'>

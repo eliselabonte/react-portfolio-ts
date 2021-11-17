@@ -1,13 +1,28 @@
-div.Nav {
+nav.Nav {
     background-color: black;
     padding-left: 10px;
     padding-right: 10px;
     z-index:20;
+    transition: all 1s ease;
+    position: absolute;
+    top: calc(100vw + 50px);
+    width:100%;
+    padding:0px;
 }
 
-div.Nav nav ul  {
+nav.Nav.hidden {
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 100vw;
+}
+
+ul.nav-list  {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    margin:0px;
+    padding:0px;
 }
 
 li {
