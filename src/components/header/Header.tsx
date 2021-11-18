@@ -1,12 +1,5 @@
 import "./header.scss";
 
-
-// {navOpen}
-// interface Props {
-//     navOpen: Boolean;
-//     setNavOpen: () => {}
-// }
-
 export default function Header (props: any) {
     const { navOpen, setNavOpen } = props
 
@@ -20,5 +13,3 @@ export default function Header (props: any) {
             </div>
         </header>
 )}
-
-// includes navigation and title
