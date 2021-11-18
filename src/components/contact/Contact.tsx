@@ -1,6 +1,22 @@
-import './contact.scss'
+import './contact.scss';
+import Form from './form/Form';
+import validateEmail from './utils/helpers';
 
 export default function Contact () {
+
+//     const [email, setEmail] = useState<String>('');
+//     const [name, setName] = useState<String>('');
+//     const [body, setBody] = useState<String>('');
+
+    
+//         } else if (inputType === 'name') {
+//             setName(inputValue);
+//         } else {
+//             setBody(inputValue);
+//         }
+//         return;
+// }
+
     return  (
         <div className='contact' id='contact'>
             <div className='my-info'>
@@ -11,15 +27,8 @@ export default function Contact () {
             <span className='line-break'></span>
             <div className="their-info"> 
                 <h3>or send me a message</h3>
-                <form id='contact-form'>
-                    <input name='name' placeholder='Your Name' className='name' required></input>
-
-                    <input name='email' placeholder='Your Email Address' className='email' id='email' required></input>
-                    
-                    <input name='body' placeholder="What's on your mind?" className='body' required></input>
-                    
-                    <button className='button' type='submit'>SEND</button>
-                </form>
+                <Form />
             </div>
         </div>
-)}
+)
+    }

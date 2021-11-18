@@ -14,7 +14,7 @@ function App() {
   const [navOpen, setNavOpen] = useState<Boolean>(false);
 
   return (
-    <body className="body">
+    <div className="body">
       <Intro />
       <Header navOpen={navOpen} setNavOpen={setNavOpen} />
       <Navigation navOpen={navOpen} />
@@ -25,7 +25,7 @@ function App() {
         <Contact />
       </main>
         <Footer />
-    </body>
+    </div>
   )
 }
 
