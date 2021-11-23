@@ -11,23 +11,23 @@ export const projects = [
         id: 1,
         name: 'Code Quiz',
         deployed: 'https://eliselabonte.github.io/timed-coding-quiz/',
-        gitHub: '',
+        gitHub: 'https://github.com/eliselabonte/timed-coding-quiz',
         findBy: 'code-quiz',
         image: CodeImage
     },
-    {
-        id: 2,
-        name: 'Art Portfolio',
-        deployed: 'https://codepen.io/elise-labonte/full/bGgrKjB',
-        gitHub: '',
-        findBy: 'art',
-        image: ArtImage
-    },
+    // {
+    //     id: 2,
+    //     name: 'Art Portfolio',
+    //     deployed: 'https://codepen.io/elise-labonte/full/bGgrKjB',
+    //     gitHub: '',
+    //     findBy: 'art',
+    //     image: ArtImage
+    // },
     {
         id: 3,
         name: 'Crypt-ID',
         deployed: 'https://polar-earth-58321.herokuapp.com/',
-        gitHub: '',
+        gitHub: 'https://github.com/rdupont1623/Crypt-ID',
         findBy: 'cryptid',
         image: CryptidImage
     },
@@ -35,7 +35,7 @@ export const projects = [
         id: 4,
         name: 'Who\'s Your Daddy?',
         deployed: 'https://eliselabonte.github.io/whos-your-daddy/',
-        gitHub: '',
+        gitHub: 'https://github.com/eliselabonte/whos-your-daddy',
         findBy: 'dad',
         image: DadImage
     },
@@ -43,7 +43,7 @@ export const projects = [
         id: 5,
         name: 'Password Generator',
         deployed: 'https://eliselabonte.github.io/createAPassword/',
-        gitHub: '',
+        gitHub: 'https://github.com/eliselabonte/createAPassword',
         findBy: 'password',
         image: PasswordImage
     },
@@ -51,7 +51,7 @@ export const projects = [
         id: 6,
         name: 'Weather Application',
         deployed: 'https://eliselabonte.github.io/weather-app/',
-        gitHub: '',
+        gitHub: 'https://github.com/eliselabonte/weather-app',
         findBy: 'weather-app',
         image: WeatherImage
     },
@@ -59,7 +59,7 @@ export const projects = [
         id: 7,
         name: 'Productivity Tracker',
         deployed: 'https://eliselabonte.github.io/work-tracker/',
-        gitHub: '',
+        gitHub: 'https://github.com/eliselabonte/work-tracker',
         findBy: 'work-tracker',
         image: WorkImage
     }
