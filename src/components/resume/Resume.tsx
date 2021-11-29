@@ -1,15 +1,23 @@
 import './resume.scss';
+import { useInView } from 'react-intersection-observer';
 
-export default function Resume()    {
+export default function Resume(props:any)    {
+
+        const { ref, inView, entry } = useInView({
+          /* Optional options */
+            threshold: 0,
+        });
+
     return(
-        <div className='resume' id='resume'>
+        <div className='resume' id='resume' ref={ref}>
 
             <span className='line-break'></span>
             <span>
                 <p>please download my resume</p>
-                <a href='https://docs.google.com/document/d/1Oa68MMDxUopVhyH8-1eIAFD4eu-scKV7YkHLRXEt11g/edit?usp=sharing' className='download'>HERE</a>
+                <a href='https://docs.google.com/document/d/1Oa68MMDxUopVhyH8-1eIAFD4eu-scKV7YkHLRXEt11g/edit?usp=sharing' className='download' target="_blank">HERE</a>
             </span>
-            <div className='graph'>
+
+            <div className={inView ? 'graph visible' : 'graph'}>
                 <h3>proficiencies</h3>
                 {/* use intersection-observer to animate on scroll */}
                 <span className='bar css scale-in-hor-left'>CSS <p className='proficiency'>comfortable</p></span>

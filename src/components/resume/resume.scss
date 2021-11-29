@@ -11,11 +11,16 @@ a.download {
   text-decoration: none;
   color: var(--light-grey);
 }
+
 a.download:hover {
   color: var(--red);
 }
 
 div.graph {
+  display:none;
+}
+
+div.graph.visible {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,6 +37,9 @@ span.bar {
   margin-bottom: 10px;
   height: 50px;
   background-color: var(--orange);
+
+  -webkit-animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 h3  {
@@ -51,11 +59,6 @@ span.react {
 
 p.proficiency  {
   color: rgb(83, 83, 83);
-}
-
-.scale-in-hor-left {
-	-webkit-animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------

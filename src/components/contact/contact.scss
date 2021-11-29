@@ -5,6 +5,10 @@ div.contact {
   align-items: center;
 }
 
+div.my-info {
+  margin-bottom: 50px;
+}
+
 h2   {
   font-weight: 500;
 }
@@ -49,9 +53,16 @@ input.body {
 }
 
 form button.button {
-    height:25px;
+    height:35px;
+    margin-top: 5px;
     background-color: var(--light-grey);
     border:none;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: var(--body-font);
+    font-size: 20px;
   } 
+
+  form button.button:hover  {
+    background-color: var(--orange);
+    transform: scale(1.2);
+  }
