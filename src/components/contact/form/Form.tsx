@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import validateEmail from '../utils/helpers';
 
@@ -6,7 +6,7 @@ export default function Form() {
 
     const Button = () =>  {
         return(
-            <button className='button' type='submit'>SEND</button>
+            <button className='button' type='submit'>send</button>
         )
     }
 

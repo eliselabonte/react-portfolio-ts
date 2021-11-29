@@ -12,9 +12,9 @@ export default function Portfolio()   {
                 { projects.map((item, i) => {
                     return (
                         <div key={i} className="projectItem">
-                            <img src={item.image}/>
+                            <a href={item.deployed} target="_blank"><img src={item.image}/></a>
                             <div className='text'>
-                            <h4>{item.name}</h4>
+                                <h4>{item.name}</h4>
                                 <div className='links'>
                                     <a href={item.gitHub}><FaGithub className='icon' /></a>
                                     <a href={item.deployed}><VscPlay className='icon' /></a>

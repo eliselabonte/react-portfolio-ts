@@ -1,21 +1,7 @@
 import './contact.scss';
 import Form from './form/Form';
-import validateEmail from './utils/helpers';
 
 export default function Contact () {
-
-//     const [email, setEmail] = useState<String>('');
-//     const [name, setName] = useState<String>('');
-//     const [body, setBody] = useState<String>('');
-
-    
-//         } else if (inputType === 'name') {
-//             setName(inputValue);
-//         } else {
-//             setBody(inputValue);
-//         }
-//         return;
-// }
 
     return  (
         <div className='contact' id='contact'>
