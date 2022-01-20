@@ -26,8 +26,8 @@ export const projects = [
     {
         id: 3,
         name: 'Crypt-ID',
-        deployed: 'https://polar-earth-58321.herokuapp.com/',
-        gitHub: 'https://github.com/rdupont1623/Crypt-ID',
+        deployed: 'https://calm-tundra-54931.herokuapp.com/',
+        gitHub: 'https://github.com/eliselabonte/cryptid2',
         findBy: 'cryptid',
         image: CryptidImage
     },
