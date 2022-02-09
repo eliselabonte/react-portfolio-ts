@@ -1,7 +1,6 @@
 import './portfolio.scss';
 import {FaGithub} from 'react-icons/fa';
-import {FaBeer} from 'react-icons/fa'
-import {VscPlay} from 'react-icons/vsc'
+import {VscPlay} from 'react-icons/vsc';
 import { projects } from './data';
 
 export default function Portfolio()   {
@@ -12,7 +11,7 @@ export default function Portfolio()   {
                 { projects.map((item, i) => {
                     return (
                         <div key={i} className="projectItem">
-                            <a href={item.deployed} target="_blank"><img src={item.image}/></a>
+                            <a href={item.deployed} rel='noreferrer' target="_blank"><img alt={item.findBy}src={item.image}/></a>
                             <div className='text'>
                                 <h4>{item.name}</h4>
                                 <div className='links'>

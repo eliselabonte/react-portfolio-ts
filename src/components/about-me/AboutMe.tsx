@@ -10,7 +10,7 @@ export default function AboutMe () {
             <p className='about-body'>I left my home of Boston, MA after college to pursue a career on the waters of South East Alaska. There were bears. There were boats. Most importantly, there were Alaskans.
             <br></br>
             <br></br>
-            After a five years of all of these things I love, I decided it was time to come home to New England and return to my first love - learning. But where to start?
+            After taking up coding as a hobby in my time off from shipping, I made moves to switch directions completely.
             <br></br>
             <br></br>
             One cross-country road trip, a summer working with farm animals, and many months of hard work (with more to come) later, I am happy to say that coding chose me.
