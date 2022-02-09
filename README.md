@@ -1,6 +1,6 @@
 # react-portfolio
 
-[Deployed Url](https://eliselabonte.github.io/react-portfolio-ts/)
+[Deployed Url](https://elise-labonte.herokuapp.com/)
 
 [Github Repository](https://github.com/eliselabonte/react-portfolio-ts)
 
