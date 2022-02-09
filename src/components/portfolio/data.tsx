@@ -1,6 +1,5 @@
 import CryptidImage from '../../images/portfolio-items/cryptid.png';
-import CodeImage from '../../images/portfolio-items/code-quiz.png';
-import ArtImage from '../../images/portfolio-items/art.png';
+import BookSearchImage from '../../images/portfolio-items/book-search.png';
 import DadImage from '../../images/portfolio-items/dad.png';
 import PasswordImage from '../../images/portfolio-items/password.png';
 import WeatherImage from '../../images/portfolio-items/weather_app.png';
@@ -9,27 +8,19 @@ import WorkImage from '../../images/portfolio-items/work-tracker.png';
 export const projects = [
     {
         id: 1,
-        name: 'Code Quiz',
-        deployed: 'https://eliselabonte.github.io/timed-coding-quiz/',
-        gitHub: 'https://github.com/eliselabonte/timed-coding-quiz',
-        findBy: 'code-quiz',
-        image: CodeImage
-    },
-    // {
-    //     id: 2,
-    //     name: 'Art Portfolio',
-    //     deployed: 'https://codepen.io/elise-labonte/full/bGgrKjB',
-    //     gitHub: '',
-    //     findBy: 'art',
-    //     image: ArtImage
-    // },
-    {
-        id: 3,
         name: 'Crypt-ID',
         deployed: 'https://calm-tundra-54931.herokuapp.com/',
         gitHub: 'https://github.com/eliselabonte/cryptid2',
         findBy: 'cryptid',
         image: CryptidImage
+    },
+    {
+        id: 3,
+        name: 'Google Books Search',
+        deployed: 'https://enigmatic-inlet-56405.herokuapp.com/',
+        gitHub: 'https://github.com/eliselabonte/book-search-engine',
+        findBy: 'book-search',
+        image: BookSearchImage
     },
     {
         id: 4,
