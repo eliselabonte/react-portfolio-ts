@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@200;900&display=swap');
+
 * {
   --title-font: 'Monoton', cursive;;
   --body-font: 'Raleway', sans-serif;
@@ -42,9 +43,8 @@ main.sections  {
 
   > * {
     min-height: 100vh;
+    width:90%;
     z-index: inherit;
-    // display: inherit;
-    // flex-direction: inherit;
   }
 }
 
