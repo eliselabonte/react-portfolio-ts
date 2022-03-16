@@ -13,6 +13,11 @@ h2   {
   font-weight: 500;
 }
 
+h3.send-message {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 div.their-info {
   display: flex;
   flex-direction: column;
@@ -21,6 +26,8 @@ div.their-info {
 
 form {
   padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   width: 80vw;
   height: 400px;
   display: flex;

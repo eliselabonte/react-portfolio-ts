@@ -10,7 +10,7 @@ const Portfolio = () => {
 
     return(
         <div className='carousel'>
-            <h3>My Work</h3>
+            {/* <h3>My Work</h3> */}
             <Carousel
             autoPlay={false} 
             interval={4} 

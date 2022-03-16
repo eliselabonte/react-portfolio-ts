@@ -41,6 +41,10 @@ span.bar {
   -webkit-animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+div.proficiency-bar {
+  display: flex;
+  align-content: space-around;
+}
 
 h3  {
   margin-top:10px;
@@ -59,6 +63,8 @@ span.react {
 
 p.proficiency  {
   color: rgb(83, 83, 83);
+  margin-left: 20px;
+  font-size: 2rem;
 }
 
 /* ----------------------------------------------

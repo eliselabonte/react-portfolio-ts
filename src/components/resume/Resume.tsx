@@ -20,9 +20,18 @@ export default function Resume(props:any)    {
             <div className={inView ? 'graph visible' : 'graph'}>
                 <h3>proficiencies</h3>
                 {/* use intersection-observer to animate on scroll */}
-                <span className='bar css scale-in-hor-left'>CSS <p className='proficiency'>💅🏼</p></span>
-                <span className='bar js scale-in-hor-left'>Javascript <p className='proficiency'>✌🏼</p></span>
-                <span className='bar react scale-in-hor-left'>React <p className='proficiency'>💪🏼</p></span>
+                <div className='proficiency-bar'>
+                    <span className='bar css scale-in-hor-left'>CSS</span>
+                    <p className='proficiency'>💅🏼</p>
+                </div>
+                <div className='proficiency-bar'>
+                    <span className='bar js scale-in-hor-left'>Javascript</span>
+                    <p className='proficiency'>✌🏼</p>
+                </div>
+                <div className='proficiency-bar'>
+                    <span className='bar react scale-in-hor-left'>React</span>
+                    <p className='proficiency'>💪🏼</p>
+                </div>
             </div>
 
             <span className='line-break'></span>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import validateEmail from '../utils/helpers';
+import validateEmail from './utils/helpers';
 
 export default function Form() {
 
@@ -51,7 +51,6 @@ export default function Form() {
     return (
     <form action="" onSubmit={handleFormSubmit}>
         <input 
-        // value="" 
         name='name' 
         placeholder='Your Name' 
         className='name' 
@@ -67,7 +66,6 @@ export default function Form() {
         required></input>
 
         <input 
-        // value="" 
         name='body' 
         placeholder="What's on your mind?" 
         className='body' 

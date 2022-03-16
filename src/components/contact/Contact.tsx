@@ -1,5 +1,5 @@
 import './contact.scss';
-import Form from './form/Form';
+import Form from './Form';
 
 export default function Contact () {
 
@@ -12,7 +12,7 @@ export default function Contact () {
             </div>
             <span className='line-break'></span>
             <div className="their-info"> 
-                <h3>or send me a message</h3>
+                <h3 className='send-message'>or send me a message</h3>
                 <Form />
             </div>
         </div>
