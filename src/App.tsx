@@ -1,11 +1,11 @@
 import './App.scss';
 import { BrowserRouter } from 'react-router-dom';
 import React, { useState } from 'react';
-import Intro from './components/intro/Intro';
+import Intro from './components/intro/Intro'
 import Header from './components/header/Header';
 import Navigation from './components/nav/Navigation';
 import AboutMe from './components/about-me/AboutMe';
-import Portfolio from './components/portfolio/Carousel';
+import Portfolio from './components/portfolio/Portfolio';
 import Writing from './components/writing/Writing'
 import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';

@@ -2,7 +2,6 @@ div.intro-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // padding-top: 5vh;
 }
 
 section {
@@ -10,13 +9,11 @@ section {
   z-index: 0;
 }
 
-/* TODO: the height disappears in full-screen */
 span.mountain-background {
   /* image is square */
   width: 100vw;
   height: 100vw;
   margin: 0px;
-  left: -1px;
   background-size: 100% auto;
   background-image: url("../../images/background/mountains.png");
   background-repeat: no-repeat;
