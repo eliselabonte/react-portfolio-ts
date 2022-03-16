@@ -10,9 +10,10 @@ const Portfolio = () => {
 
     return(
         <div className='carousel'>
+            <h3>My Work</h3>
             <Carousel
             autoPlay={false} 
-            interval={5} 
+            interval={4} 
             loop={true}>
                 {projects.map((item, i) => (
                     <div className='projectItem'>

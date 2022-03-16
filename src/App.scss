@@ -11,6 +11,10 @@
   --border: 2px dotted var(--light-grey);
 }
 
+div.body {
+  width: 100vw;
+}
+
 ul  {
   padding:0px;
 }
@@ -41,7 +45,7 @@ main.sections  {
 	scroll-behavior: smooth;
 
 
-  > * {
+  > div {
     min-height: 100vh;
     width:90%;
     z-index: inherit;

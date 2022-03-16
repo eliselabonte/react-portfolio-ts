@@ -5,7 +5,7 @@ export default function Portfolio()   {
     
     return (
             <div className='articlesContainer' id='articles'>
-            <h3 className="articles-title">Articles</h3>
+                <h3 className="articles-title">Articles</h3>
                 { writing.map((item, i) => {
                     return (
                         <div key={i} className="writingItem">
