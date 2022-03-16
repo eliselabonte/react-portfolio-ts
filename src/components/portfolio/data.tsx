@@ -16,16 +16,7 @@ export const projects = [
         image: CryptidImage
     },
     {
-        id: 3,
-        name: 'Google Books Search',
-        deployed: 'https://enigmatic-inlet-56405.herokuapp.com/',
-        gitHub: 'https://github.com/eliselabonte/book-search-engine',
-        findBy: 'book-search',
-        description:'A search engine that uses the Google Books API and Apollo Server',
-        image: BookSearchImage
-    },
-    {
-        id: 4,
+        id: 2,
         name: 'Who\'s Your Daddy?',
         deployed: 'https://eliselabonte.github.io/whos-your-daddy/',
         gitHub: 'https://github.com/eliselabonte/whos-your-daddy',
@@ -33,6 +24,24 @@ export const projects = [
         description: 'A front-end only joke generator for people who hate having friends',
         image: DadImage
     },
+    {
+        id: 3,
+        name: 'Productivity Tracker',
+        deployed: 'https://eliselabonte.github.io/work-tracker/',
+        gitHub: 'https://github.com/eliselabonte/work-tracker',
+        findBy: 'work-tracker',
+        description: 'Log tasks to complete and store data across uses',
+        image: WorkImage
+    },
+    {
+        id: 4,
+        name: 'Google Books Search',
+        deployed: 'https://enigmatic-inlet-56405.herokuapp.com/',
+        gitHub: 'https://github.com/eliselabonte/book-search-engine',
+        findBy: 'book-search',
+        description:'A search engine that uses the Google Books API and Apollo Server',
+        image: BookSearchImage
+    }
     // {
     //     id: 5,
     //     name: 'Password Generator',
@@ -51,13 +60,4 @@ export const projects = [
     //     description:,
     //     image: WeatherImage
     // },
-    {
-        id: 7,
-        name: 'Productivity Tracker',
-        deployed: 'https://eliselabonte.github.io/work-tracker/',
-        gitHub: 'https://github.com/eliselabonte/work-tracker',
-        findBy: 'work-tracker',
-        description: 'Log tasks to complete and store data across uses',
-        image: WorkImage
-    }
 ]
