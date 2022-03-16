@@ -8,7 +8,7 @@ export default function Portfolio()   {
             <h3 className="articles-title">Articles</h3>
                 { writing.map((item, i) => {
                     return (
-                        <div key={i} className="projectItem">
+                        <div key={i} className="writingItem">
                             <a href={item.link} rel='noreferrer' target="_blank"><img alt={item.name}src={item.image}/></a>
                             <div className='text'>
                                 <h4>{item.name}</h4>
