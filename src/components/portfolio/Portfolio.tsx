@@ -3,7 +3,7 @@ import {VscPlay} from 'react-icons/vsc';
 import {Link} from 'react-router-dom'
 import Carousel from 'framer-motion-carousel';
 import { projects } from './data';
-import './portfolio.scss'
+import './portfolio.scss';
 
 
 const Portfolio = () => {

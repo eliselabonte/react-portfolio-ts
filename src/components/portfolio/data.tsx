@@ -1,4 +1,4 @@
-import CryptidImage from '../../images/portfolio-items/cryptid.png';
+import CryptidImage from '../../images/portfolio-items/cryptid2.png';
 import BookSearchImage from '../../images/portfolio-items/book-search.png';
 import DadImage from '../../images/portfolio-items/dad.png';
 import PasswordImage from '../../images/portfolio-items/password.png';
